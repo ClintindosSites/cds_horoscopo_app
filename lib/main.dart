@@ -80,7 +80,7 @@ class _NomePageState extends State<NomePage> {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("assets/bg.png"),
+            image: AssetImage("assets/bg.webp"),
             fit: BoxFit.cover,
           ),
         ),
@@ -131,7 +131,7 @@ class HomePage extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("assets/bg.png"),
+            image: AssetImage("assets/bg.webp"),
             fit: BoxFit.cover,
           ),
         ),
@@ -251,18 +251,18 @@ class DetalhePage extends StatelessWidget {
   };
 
   final Map<String, String> imagens = {
-    "Áries": "assets/signos/aries.png",
-    "Touro": "assets/signos/touro.png",
-    "Gêmeos": "assets/signos/gemeos.png",
-    "Câncer": "assets/signos/cancer.png",
-    "Leão": "assets/signos/leao.png",
-    "Virgem": "assets/signos/virgem.png",
-    "Libra": "assets/signos/libra.png",
-    "Escorpião": "assets/signos/escorpiao.png",
-    "Sagitário": "assets/signos/sagitario.png",
-    "Capricórnio": "assets/signos/capricornio.png",
-    "Aquário": "assets/signos/aquario.png",
-    "Peixes": "assets/signos/peixes.png",
+    "Áries": "assets/signos/aries.webp",
+    "Touro": "assets/signos/touro.webp",
+    "Gêmeos": "assets/signos/gemeos.webp",
+    "Câncer": "assets/signos/cancer.webp",
+    "Leão": "assets/signos/leao.webp",
+    "Virgem": "assets/signos/virgem.webp",
+    "Libra": "assets/signos/libra.webp",
+    "Escorpião": "assets/signos/escorpiao.webp",
+    "Sagitário": "assets/signos/sagitario.webp",
+    "Capricórnio": "assets/signos/capricornio.webp",
+    "Aquário": "assets/signos/aquario.webp",
+    "Peixes": "assets/signos/peixes.webp",
   };
 
   @override

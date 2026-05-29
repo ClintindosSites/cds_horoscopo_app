@@ -1,4 +1,4 @@
-name: horoscopo_app
+name: signos_do_zodiaco
 description: "Fique por dentro do horóscopo do seu signo."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -95,10 +95,10 @@ flutter:
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
   assets:
-    - assets/bg.png
+    - assets/bg.webp
     - assets/signos/
 
 flutter_launcher_icons:
   android: true
   ios: true
-  image_path: "assets/icon.png"
+  image_path: "assets/icon.webp"

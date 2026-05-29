@@ -1,4 +1,4 @@
-package com.example.horoscopo_app
+package com.clintindossites.signos_do_destino
 
 import io.flutter.embedding.android.FlutterActivity
 
