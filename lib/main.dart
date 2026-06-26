@@ -4,14 +4,14 @@ import 'package:share_plus/share_plus.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(HoroscopoApp());
+  runApp(SignosDoDestino());
 }
 
-class HoroscopoApp extends StatelessWidget {
+class SignosDoDestino extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Horóscopo',
+      title: 'Signos do Destino',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
       home: SplashCheck(),
@@ -90,7 +90,10 @@ class _NomePageState extends State<NomePage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text("Qual seu nome?", style: TextStyle(fontSize: 24)),
+                Text(
+                  "Seja bem vindo ao Signos do Destino! Para começarmos, qual seu nome?",
+                  style: TextStyle(fontSize: 24),
+                ),
                 SizedBox(height: 20),
                 TextField(controller: controller),
                 SizedBox(height: 20),
